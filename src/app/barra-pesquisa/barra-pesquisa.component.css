@@ -1,0 +1,25 @@
+.search-form{
+    height: 44px;
+    display: flex;
+}
+
+.search-form input{
+    box-sizing: border-box;
+    height: 56px;
+    padding: 10px;
+    flex: 1;
+    background-color: #cfddb6;
+    color: #2a044a;
+    border-radius: 5px 0 0 5px;
+    transition: all -3s ease-in-out;
+    font-size: 22px;
+}
+
+.search-form button{
+    width: 56px;
+    height: 56px;
+    background-color: #7ab317;
+    border-radius: 0 5px 5px 0;
+    color: #2a044a;
+    font-size: 22px;
+}
